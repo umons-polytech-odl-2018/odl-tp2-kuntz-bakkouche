@@ -12,7 +12,7 @@ public class BaseSalaryPlusCommissionEmployee extends Employee{
 		this.comission = comission;
 	}
 
-	public int computSalary (){
+	public int computeSalary (){
 		return this.baseSalary +this.comission*this.workedHours;
 	}
 
