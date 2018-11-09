@@ -9,9 +9,9 @@ public abstract class Employee {
 	protected int workedHours=0;
 
 
-	public Employee(String name)
+	public Employee()
 	{
-		this.name = name;
+
 	}
 
 
