@@ -12,6 +12,11 @@ public class Exercise1 {
 	public Employee buildWorkHourSalaryEmployee(String name, int hourlyRoute) {
 		return null;
 	}
+
+	public static void main(String[] args)
+	{
+
+	}
 }
 
 
