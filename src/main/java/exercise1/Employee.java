@@ -2,11 +2,18 @@ package exercise1;
 
 public abstract class Employee {
 
-	private String name;
+	protected String name;
 
-	private int Sales =0;
+	protected int Sales =0;
 
-	private int workedHours=0;
+	protected int workedHours=0;
+
+
+	public Employee(String name)
+	{
+		this.name = name;
+	}
+
 
 	public int computeSalary() {
 		return 0;
