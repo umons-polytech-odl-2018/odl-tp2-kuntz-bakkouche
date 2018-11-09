@@ -3,7 +3,8 @@ package exercise1;
 public class BaseSalaryPlusCommissionEmployee extends Employee{
 
 	private int baseSalary;
-	 private int comission;
+	private int comission;
+
 	public  BaseSalaryPlusCommissionEmployee(String name, int baseSalary, int comission)
 	{
 		this.name = name;
