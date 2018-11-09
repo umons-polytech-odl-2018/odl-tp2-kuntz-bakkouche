@@ -2,9 +2,8 @@ package exercise1;
 
 public class FixedSalaryEmployee extends Employee {
 
-
-	public int FixedSalaryEmployee()
+	public FixedSalaryEmployee()
 	{
-		return 0;
+
 	}
 }

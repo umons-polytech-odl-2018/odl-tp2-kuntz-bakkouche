@@ -2,8 +2,8 @@ package exercise1;
 
 public class WorkHourSalaryEmployee extends Employee {
 
-	public int WorkHourSalaryEmployee()
+	public WorkHourSalaryEmployee()
 	{
-		return 0;
+
 	}
 }
