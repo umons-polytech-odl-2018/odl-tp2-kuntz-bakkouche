@@ -9,4 +9,11 @@ public class WorkHourSalaryEmployee extends Employee {
 		this.name = name;
 		this.hourRate = hourRate;
 	}
+
+	public int computeSalary()
+	{
+		int salary;
+		salary = hourRate*workedHours;
+		return salary;
+	}
 }
