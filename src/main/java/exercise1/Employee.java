@@ -17,6 +17,7 @@ public abstract class Employee {
 	public void workOneHour() { }
 
 	public String getName() {
-		return null;
+		return this.name;
 	}
 }
+
