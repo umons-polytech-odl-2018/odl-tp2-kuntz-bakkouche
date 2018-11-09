@@ -10,7 +10,7 @@ private int fixedSalary;
         this.fixedSalary = fixedSalary;
 	}
 
-	public int getSalary (){
+	public int computeSalary (){
 	return this.fixedSalary;
 	}
 }
