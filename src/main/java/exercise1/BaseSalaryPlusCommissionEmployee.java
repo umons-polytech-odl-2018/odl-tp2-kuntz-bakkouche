@@ -2,9 +2,9 @@ package exercise1;
 
 public class BaseSalaryPlusCommissionEmployee extends Employee{
 
-	public int BaseSalaryPlusCommissionEmployee()
+	public  BaseSalaryPlusCommissionEmployee(String name, int baseSalary, int comission)
 	{
-		return 0;
+
 	}
 
 }

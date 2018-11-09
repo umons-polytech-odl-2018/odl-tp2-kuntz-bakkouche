@@ -3,8 +3,8 @@ package exercise1;
 public class FixedSalaryEmployee extends Employee {
 
 
-	public int FixedSalaryEmployee()
+	public FixedSalaryEmployee(String name, int fixedSalary)
 	{
-		return 0;
+
 	}
 }
