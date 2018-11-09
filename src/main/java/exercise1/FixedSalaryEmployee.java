@@ -9,4 +9,9 @@ private int fixedSalary;
 		this.name = name;
         this.fixedSalary = fixedSalary;
 	}
+
+	public int getSalary (){
+	return this.fixedSalary;
+	}
 }
+
